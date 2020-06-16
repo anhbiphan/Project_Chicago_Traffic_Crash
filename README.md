@@ -13,15 +13,17 @@ Data Breakdown: Dataset describes traffic crash parameters, including date of cr
 
 
 #### Goals  
-- Create a model that predicted and classified types of traffic crashes. Also to predict if the traffic crashes was going to be a "Rear End" crash or not. Dataset parameters were used to predict and distinguish between types of crashes such as "Rear End". 
+- Create a model that predicted and classify if a crash is "Rear End" crash or not. Dataset parameters were used to predict and distinguish between types of crashes such as "Rear End". 
 
 #### Problems:
 - LabelEncoding, OneHotEncoding and merging dataframes to obtian a cummulative dataset that had everything we needed.
 - Losing data after merging or adding columns. 
 - Large amounts of 'Unkown' and NaNs.
+
 #### Solutions:
 - Effective Googling for assistance.
 - Experiementing with the code to check if they worked correctly. 
+
 #### Recommendations for further developments:
 - Grab Vehicle Dataset and Driver/Passenger Dataset. Combining them with our Traffic Crash dataset. 
 - Binning and Clustering data in the future to find location of crashes.
@@ -102,7 +104,6 @@ Data Breakdown: Dataset describes traffic crash parameters, including date of cr
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
-    
 3. CarCrashData.ipynb and Traffic_Crash-Anh.ipynb will contain data cleaning, findings, and visuals. 
 4. mytree.png will contain visual of DecisionTreeClassifier split parameters.
 
