@@ -1,9 +1,8 @@
 # Chicago-Traffic-Crash-Project
 
 
-# Chicago Traffic-Crash Data Link:
+### Chicago Traffic-Crash Data Link:
 https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
-
 
 
 ### Project Details:
